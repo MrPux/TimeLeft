@@ -28,6 +28,8 @@ public class MonthObject
 		return this.monthNum;
 	}
 
+	@override
+
 	public String toString()
 	{
 		return "Month: " + name + " has " + days + " days. Month is " + monthNum + "/12. ";
