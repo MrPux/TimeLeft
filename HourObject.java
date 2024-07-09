@@ -8,7 +8,7 @@ public class HourObject
 	{
 		this.hour = hour;
 		this.minutes = minutes;
-		this.seconds = seocnds;
+		this.seconds = seconds;
 	}
 
 	//Getters
@@ -27,7 +27,7 @@ public class HourObject
 		return seconds;
 	}
 
-	@override
+	@Override
 
 	public String toString()
 	{

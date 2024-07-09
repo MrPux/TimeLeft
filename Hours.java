@@ -1,13 +1,13 @@
 public class Hours
 {
 	//Hours list
-	HoursObject[] hours = new HoursObject[24];
+	HourObject[] hours = new HourObject[24];
 
-	public genHours()
+	public void genHours()
 	{
 		for(int i = 0; i < hours.length; i++)
 		{
-			hours[i] = new HoursObject(i+1, 60, 60);
+			hours[i] = new HourObject(i+1, 60, 60);
 		}
 	}
 }
